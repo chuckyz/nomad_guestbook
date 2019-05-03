@@ -1,0 +1,3 @@
+{{ range service "redis-guestbook-master" }}
+{{ .Address }}:{{ .Port }}
+{{ end }}
